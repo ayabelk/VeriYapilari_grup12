@@ -1,0 +1,1 @@
+# VeriYapilari_grup12
