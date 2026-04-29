@@ -3,10 +3,10 @@
 
 ## Ekip Üyeleri
 - Rojin Topuz
-- Arda İnanç
+- Arda İnanc
 - Hasan Emre Kartal
 - Beyzanur Postlu
-- Selsabıl Aya Belkabla
+- Selsabil Aya Belkabla
 
 ## Proje Adı: Veri Yapıları ile BSP Ağacı Tabanlı Görüş Alanı ve Çarpışma Tespiti 
 Senaryo ve Temel Amaç: 
