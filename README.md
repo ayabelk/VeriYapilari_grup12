@@ -24,7 +24,7 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 
 ## Mevcut Durum (Ara Rapor - 30 Nisan 2026)
 - Repo kuruldu ve branch yapısı oluşturuldu
-- BSP Tree veri yapısı implemente edildi ve test edildi
+- BSP Tree veri yapısı oluşturuldu ve test edildi
 
 ## Tespit Edilen Bulgular / Tartışmalar
 - BSP Tree başarıyla yapıldı ve çalıştığı doğrulandı
