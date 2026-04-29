@@ -2,11 +2,14 @@
 # BSP Ağacı Tabanlı Görüş Alanı ve Çarpışma Tespiti
 
 ## Ekip Üyeleri
-- Rojin Topuz
-- Arda İnanc
-- Hasan Emre Kartal
-- Beyzanur Postlu
-- Selsabil Aya Belkabla
+| Ad - Soyad | Numara |
+|---|---|
+| Rojin Topuz | 032390078 |
+| Arda İnanc | 032390080 |
+| Hasan Emre Kartal | 032390081 |
+| Beyzanur Postlu | 032390082 |
+| Selsabil Aya Belkabla | 032390092 |
+
 
 ## Proje Adı: Veri Yapıları ile BSP Ağacı Tabanlı Görüş Alanı ve Çarpışma Tespiti 
 Senaryo ve Temel Amaç: 
