@@ -28,8 +28,10 @@ Temel amaç:
 
 ## Kullanılan Veri Yapıları
 | Veri Yapısı | Kullanım Amacı | Durum |
+
 | BSP Tree | Duvar segmentleri, görüş/çarpışma testi | Tamamlandı |
 
 ## Branch Yapısı
 | Üye | Branch | Sorumluluk |
+
 | Rojin Topuz | feature/bsp-tree | BSP Tree implementasyonu |
