@@ -25,6 +25,7 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 
 ## Tespit Edilen Bulgular / Tartışmalar
 - BSP Tree başarıyla yapıldı ve çalıştığı doğrulandı
+- Raycasting için kullanılacak yöntem araştırılıyor
 
 
 ## Kullanılan Veri Yapıları
