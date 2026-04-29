@@ -1,18 +1,15 @@
 services:
-  a_i:
-    image: ${DOCKER_REGISTRY-}ai
+  back_end:
     build:
       context: .
-      dockerfile: a_i/Dockerfile
-
-  back_End:
-    image: ${DOCKER_REGISTRY-}backend
-    build:
-      context: .
-      dockerfile: back_End/Dockerfile
-
-  front_End:
-    image: ${DOCKER_REGISTRY-}frontend
+      dockerfile: back_End/Dockerfile  # Klasör ismin tam olarak neyse o (Büyük/küçük harf önemli!)
+  
+  front_end:
     build:
       context: .
       dockerfile: front_End/Dockerfile
+
+  a_i:
+    build:
+      context: .
+      dockerfile: a_i/Dockerfile
