@@ -42,7 +42,7 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 | Rojin Topuz | feature/bsp-tree | BSP Tree yapısı |
 
 ##  Genel Kurallar
-1. Klasör Yapısı
+### Klasör Yapısı
 proje/
  GameEngine/
 - GameTypes.cs       → ortak tipler (herkes kullanır)
