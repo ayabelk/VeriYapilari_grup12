@@ -36,7 +36,7 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 ## Branch Yapısı
 | Üye | Branch | Sorumluluk |
 |---|---|---|
-| Rojin Topuz | feature/bsp-tree | BSP Tree implementasyonu |
+| Rojin Topuz | feature/bsp-tree | BSP Tree yapısı |
 
 ##  Genel Kurallar
 1. Klasör Yapısı
