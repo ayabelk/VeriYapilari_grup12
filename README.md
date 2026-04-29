@@ -5,7 +5,7 @@
 | Ad - Soyad | Numara |
 |---|---|
 | Rojin Topuz | 032390078 |
-| Arda İnanc | 032390080 |
+| Arda İnanç | 032390080 |
 | Hasan Emre Kartal | 032390081 |
 | Beyzanur Postlu | 032390082 |
 | Selsabil Aya Belkabla | 032390092 |
@@ -35,11 +35,13 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 | Veri Yapısı | Kullanım Amacı | Durum |
 |---|---|---|
 | BSP Tree | Duvar segmentleri, görüş/çarpışma testi | Tamamlandı |
+| Graph    | Yürünebilir alanların düğüm-kenar modeli| Tamamlandı |
 
 ## Branch Yapısı
 | Üye | Branch | Sorumluluk |
 |---|---|---|
 | Rojin Topuz | feature/bsp-tree | BSP Tree yapısı |
+| Arda İnanç  | feature/graph    | Graph yapısı    |
 
 ##  Genel Kurallar
 ### Klasör Yapısı
