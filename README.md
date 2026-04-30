@@ -31,6 +31,7 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 
 ## Tespit Edilen Bulgular / Tartışmalar
 - BSP Tree başarıyla yapıldı ve çalıştığı doğrulandı.
+- minheap yapısı başarıyla yapıldı ve çalıştığı doğrulandı.
 - Raycasting için kullanılacak yöntem araştırılıyor.
 -Veri yapıları arasındaki hiyerarşi netleştirildi.
 -LinkedList tabanlı dinamik AI hafıza mekanizması ve konum takibi yöntemleri araştırılıyor.
@@ -41,12 +42,14 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 | BSP Tree | Duvar segmentleri, görüş/çarpışma testi | Tamamlandı |
 | Graph    | Yürünebilir alanların düğüm-kenar modeli| Tamamlandı |
 | Linked List    | Yürünebilir alanların düğüm-kenar modeli| Geliştiriliyor |
+| MinHeap| Pathfinding algoritmalarında, A* algoritmasında kullanılacak| Geliştiriliyor|
 ## Branch Yapısı
 | Üye | Branch | Sorumluluk |
 |---|---|---|
 | Rojin Topuz | feature/bsp-tree | BSP Tree yapısı |
 | Arda İnanç  | feature/graph    | Graph yapısı    |
 | Beyzanur Postlu | feature/linkedlist-architecture | Docker Konfigürasyonu, LinkedList |
+| Selsabıl Aya Belkabla| feature/minheap| MinHeap yapısı|
 
 ##  Genel Kurallar
 
