@@ -32,8 +32,8 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 ## Tespit Edilen Bulgular / Tartışmalar
 - BSP Tree başarıyla yapıldı ve çalıştığı doğrulandı.
 - Raycasting için kullanılacak yöntem araştırılıyor.
--Veri yapıları arasındaki hiyerarşi netleştirildi.
--LinkedList tabanlı dinamik AI hafıza mekanizması ve konum takibi yöntemleri araştırılıyor.
+- Veri yapıları arasındaki hiyerarşi netleştirildi.
+- LinkedList tabanlı dinamik AI hafıza mekanizması ve konum takibi yöntemleri araştırılıyor.
 
 ## Kullanılan Veri Yapıları
 | Veri Yapısı | Kullanım Amacı | Durum |
