@@ -54,7 +54,7 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 
 ##  Genel Kurallar
 
-##  Proje Klasör Yapısı
+###  Proje Klasör Yapısı
 ```
 Project6/
 ├── back_End/                   # .NET Backend Servisi
