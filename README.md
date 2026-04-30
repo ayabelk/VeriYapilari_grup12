@@ -48,7 +48,9 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 | Arda İnanç  | feature/graph    | Graph yapısı    |
 | Beyzanur Postlu | feature/linkedlist-architecture | Docker Konfigürasyonu, LinkedList |
 ##  Genel Kurallar
-Project6/
+
+##  Proje Klasör Yapısı
+Project6_StealthGame/
 ├── back_End/                # .NET Backend Servisi
 │   ├── DataStructures/
 │   │   ├── bspTree.cs       (Rojin Topuz)
@@ -66,7 +68,7 @@ Project6/
 │   │   └── minHeap.cs       (Aya Belkabla)
 │   └── Dockerfile
 ├── docker-compose.yml       # Sistem Orkestrasyonu
-└── README.md                # Proje Dokümantasyonu
+└── README.mdu
    
 - Her dosyanın başında bu olmalı    >> namespace [SERVİS iSMİ].DataStructures
 - Sınıf adları → BüyükHarfle başlar >> public class BspTree { } >> public class GraphNode { }
