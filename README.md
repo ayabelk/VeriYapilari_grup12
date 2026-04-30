@@ -47,8 +47,11 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 | Rojin Topuz | feature/bsp-tree | BSP Tree yapısı |
 | Arda İnanç  | feature/graph    | Graph yapısı    |
 | Beyzanur Postlu | feature/linkedlist-architecture | Docker Konfigürasyonu, LinkedList |
+
 ##  Genel Kurallar
+
 ##  Proje Klasör Yapısı
+```
 Project6/
 ├── back_End/                   # .NET Backend Servisi
 │   ├── DataStructures/
@@ -71,8 +74,7 @@ Project6/
 │
 ├── docker-compose.yml          # Sistem Orkestrasyonu
 └── README.md
-
-
+```
 
 
 
