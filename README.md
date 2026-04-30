@@ -48,26 +48,25 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 | Arda İnanç  | feature/graph    | Graph yapısı    |
 | Beyzanur Postlu | feature/linkedlist-architecture | Docker Konfigürasyonu, LinkedList |
 ##  Genel Kurallar
-### Klasör Yapısı
-Project6_StealthGame/
-├── back_End/               → .NET Backend Servisi
+Project6/
+├── back_End/                # .NET Backend Servisi
 │   ├── DataStructures/
-         └── bspTree.cs          (Üye: Rojin Topuz)
-│        └── graph.cs            (Üye: Arda İnanç)
-│        └── linkedList.cs        (Üye: Beyzanur Postlu)
-         └── minHeap.cs          (Üye:Aya Belkabla)
+│   │   ├── bspTree.cs       (Rojin Topuz)
+│   │   ├── graph.cs         (Arda İnanç)
+│   │   ├── linkedList.cs    (Beyzanur Postlu)
+│   │   └── minHeap.cs       (Aya Belkabla)
 │   └── Dockerfile
-├── front_End/              → Blazor/Unity Web Frontend
+├── front_End/               # Blazor/Unity Web Frontend
 │   └── Dockerfile
-├── a_i/                    → Yapay Zeka & Pathfinding Servisi
-    ├── DataStructures         
-│       └── bspTree.cs           (Üye: Rojin Topuz)
-│       └── graph.cs             (Üye: Arda İnanç)
-        └── linkedList.cs       (Üye: Beyzanur Postlu) 
-        └── minHeap.cs          (Üye:Aya Belkabla)
-│  └── Dockerfile
-├── docker-compose.yml      → Sistem Orkestrasyonu
-└── README.md
+├── a_i/                     # Yapay Zeka & Pathfinding Servisi
+│   ├── DataStructures/
+│   │   ├── bspTree.cs       (Rojin Topuz)
+│   │   ├── graph.cs         (Arda İnanç)
+│   │   ├── linkedList.cs    (Beyzanur Postlu)
+│   │   └── minHeap.cs       (Aya Belkabla)
+│   └── Dockerfile
+├── docker-compose.yml       # Sistem Orkestrasyonu
+└── README.md                # Proje Dokümantasyonu
    
 - Her dosyanın başında bu olmalı    >> namespace [SERVİS iSMİ].DataStructures
 - Sınıf adları → BüyükHarfle başlar >> public class BspTree { } >> public class GraphNode { }
