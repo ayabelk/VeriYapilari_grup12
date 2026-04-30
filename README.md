@@ -50,32 +50,34 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 ##  Genel Kurallar
 ##  Proje Klasör Yapısı
 Project6/
-├── back_End/               # .NET Backend Servisi
+├── back_End/                   # .NET Backend Servisi
 │   ├── DataStructures/
-│   │   ├── bspTree.cs         (Üye: Rojin Topuz)
-│   │   ├── graph.cs           (Üye: Arda İnanç)
-│   │   ├── linkedList.cs      (Üye: Beyzanur Postlu)
-│   │   └── minHeap.cs         (Üye: Aya Belkabla)
+│   │   ├── bspTree.cs          # Üye: Rojin Topuz
+│   │   ├── graph.cs            # Üye: Arda İnanç
+│   │   ├── linkedList.cs       # Üye: Beyzanur Postlu
+│   │   └── minHeap.cs          # Üye: Aya Belkabla
 │   └── Dockerfile
 │
-├── front_End/              # Blazor / Unity Web Frontend
+├── front_End/                  # Blazor / Unity Web Frontend
 │   └── Dockerfile
 │
-├── a_i/                    # Yapay Zeka & Pathfinding Servisi
+├── a_i/                        # Yapay Zeka & Pathfinding Servisi
 │   ├── DataStructures/
-│   │   ├── bspTree.cs         (Üye: Rojin Topuz)
-│   │   ├── graph.cs           (Üye: Arda İnanç)
-│   │   ├── linkedList.cs      (Üye: Beyzanur Postlu)
-│   │   └── minHeap.cs         (Üye: Aya Belkabla)
+│   │   ├── bspTree.cs          # Üye: Rojin Topuz
+│   │   ├── graph.cs            # Üye: Arda İnanç
+│   │   ├── linkedList.cs       # Üye: Beyzanur Postlu
+│   │   └── minHeap.cs          # Üye: Aya Belkabla
 │   └── Dockerfile
 │
-├── docker-compose.yml      # Sistem Orkestrasyonu
+├── docker-compose.yml          # Sistem Orkestrasyonu
 └── README.md
 
 
 
+
+
    
-- Her dosyanın başında bu olmalı    >> namespace [SERVİS iSMİ].DataStructures
+- Her dosyanın başında bu olmalı    >> namespace [SERVİS İSMİ].DataStructures
 - Sınıf adları → BüyükHarfle başlar >> public class BspTree { } >> public class GraphNode { }
 - Metodlar → BüyükHarfle başlar     >> public void AddNode() { } >> public int GetHeight() { }
 - Private değişkenler → _altçizgiyle başlar >> private BspNode _root; >> private int _nodeCount;
