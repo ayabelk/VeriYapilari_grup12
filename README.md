@@ -23,39 +23,53 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 - çarpışma ve yol bulma problemlerini çözmek
 
 ## Mevcut Durum (Ara Rapor - 30 Nisan 2026)
-- Repo kuruldu ve branch yapısı oluşturuldu
-- BSP Tree veri yapısı oluşturuldu ve test edildi
+- Repo kuruldu ve branch yapısı oluşturuldu.
+- BSP Tree veri yapısı oluşturuldu ve test edildi.
+- Graph veri yapısı eklendi.
+- Proje mimarisi mikroservis yapısına dönüştürüldü.
+- Linked List veri yapısı eklendi.
 
 ## Tespit Edilen Bulgular / Tartışmalar
-- BSP Tree başarıyla yapıldı ve çalıştığı doğrulandı
-- Raycasting için kullanılacak yöntem araştırılıyor
-
+- BSP Tree başarıyla yapıldı ve çalıştığı doğrulandı.
+- Raycasting için kullanılacak yöntem araştırılıyor.
+-Veri yapıları arasındaki hiyerarşi netleştirildi.
+-LinkedList tabanlı dinamik AI hafıza mekanizması ve konum takibi yöntemleri araştırılıyor.
 
 ## Kullanılan Veri Yapıları
 | Veri Yapısı | Kullanım Amacı | Durum |
 |---|---|---|
 | BSP Tree | Duvar segmentleri, görüş/çarpışma testi | Tamamlandı |
 | Graph    | Yürünebilir alanların düğüm-kenar modeli| Tamamlandı |
-
+| Linked List    | Yürünebilir alanların düğüm-kenar modeli| Geliştiriliyor |
 ## Branch Yapısı
 | Üye | Branch | Sorumluluk |
 |---|---|---|
 | Rojin Topuz | feature/bsp-tree | BSP Tree yapısı |
 | Arda İnanç  | feature/graph    | Graph yapısı    |
-
+| Beyzanur Postlu | feature/linkedlist-architecture | Docker Konfigürasyonu, LinkedList |
 ##  Genel Kurallar
 ### Klasör Yapısı
-proje/
- GameEngine/
-- GameTypes.cs       → ortak tipler (herkes kullanır)
-- GameConstants.cs   → sabit değerler (herkes kullanır)
-- BspTree.cs         → Üye1
-- Graph.cs           → Üye2
-- MinHeap.cs         → Üye3
-- LinkedList.cs      → Üye4
-- GameEngine.cs      → Üye5
+Project6_StealthGame/
+├── back_End/               → .NET Backend Servisi
+│   ├── DataStructures/
+         └── bspTree.cs          (Üye: Rojin Topuz)
+│        └── graph.cs            (Üye: Arda İnanç)
+│        └── linkedList.cs        (Üye: Beyzanur Postlu)
+         └── minHeap.cs          (Üye:Aya Belkabla)
+│   └── Dockerfile
+├── front_End/              → Blazor/Unity Web Frontend
+│   └── Dockerfile
+├── a_i/                    → Yapay Zeka & Pathfinding Servisi
+    ├── DataStructures         
+│       └── bspTree.cs           (Üye: Rojin Topuz)
+│       └── graph.cs             (Üye: Arda İnanç)
+        └── linkedList.cs       (Üye: Beyzanur Postlu) 
+        └── minHeap.cs          (Üye:Aya Belkabla)
+│  └── Dockerfile
+├── docker-compose.yml      → Sistem Orkestrasyonu
+└── README.md
    
-- Her dosyanın başında bu olmalı    >> namespace GameEngine.DataStructures
+- Her dosyanın başında bu olmalı    >> namespace [SERVİS iSMİ].DataStructures
 - Sınıf adları → BüyükHarfle başlar >> public class BspTree { } >> public class GraphNode { }
 - Metodlar → BüyükHarfle başlar     >> public void AddNode() { } >> public int GetHeight() { }
 - Private değişkenler → _altçizgiyle başlar >> private BspNode _root; >> private int _nodeCount;
@@ -118,9 +132,9 @@ public static class GameConstants
 ### Git Kuralları
 - Her özellik için ayrı branch aç
    feature/graph
-   feature/minheap
-   feature/linkedlist
-   feature/gameengine
+   feature/minHeap
+   feature/linkedList
+   feature/bspTree
 
 - Commit mesajları Türkçe ve açıklayıcı olsun
    "Graph veri yapisi eklendi"
