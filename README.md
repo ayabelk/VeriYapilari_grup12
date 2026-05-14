@@ -57,26 +57,18 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 ###  Proje Klasör Yapısı
 ```
 Project6/
-├── back_End/                   # .NET Backend Servisi
-│   ├── DataStructures/
-│   │   ├── bspTree.cs          # Üye: Rojin Topuz
-│   │   ├── graph.cs            # Üye: Arda İnanç
-│   │   ├── linkedList.cs       # Üye: Beyzanur Postlu
-│   │   └── minHeap.cs          # Üye: Aya Belkabla
-│   └── Dockerfile
-│
-├── front_End/                  # Blazor / Unity Web Frontend
-│   └── Dockerfile
-│
-├── a_i/                        # Yapay Zeka & Pathfinding Servisi
-│   ├── DataStructures/
-│   │   ├── bspTree.cs          # Üye: Rojin Topuz
-│   │   ├── graph.cs            # Üye: Arda İnanç
-│   │   ├── linkedList.cs       # Üye: Beyzanur Postlu
-│   │   └── minHeap.cs          # Üye: Aya Belkabla
-│   └── Dockerfile
-│
-├── docker-compose.yml          # Sistem Orkestrasyonu
+├── GameEngine.csproj
+├── Program.cs
+├── DataStructures/
+│   ├── BspTree.cs
+│   ├── Graph.cs
+│   ├── MinHeap.cs
+│   └── CustomLinkedList.cs
+├── Algorithms/
+│   ├── Ray.cs
+│   ├── HitPoint.cs
+│   ├── RayIntersection.cs
+│   └── Raycaster.cs
 └── README.md
 ```
 
