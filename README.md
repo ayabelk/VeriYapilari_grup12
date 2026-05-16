@@ -22,13 +22,16 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 - görüş alanı (line of sight) hesaplamasını verimli şekilde yapmak 
 - çarpışma ve yol bulma problemlerini çözmek
 
-## Mevcut Durum (Ara Rapor - 30 Nisan 2026)
+## Mevcut Durum 
 - Repo kuruldu ve branch yapısı oluşturuldu.
 - BSP Tree veri yapısı oluşturuldu ve test edildi.
 - Graph veri yapısı eklendi.
 - Proje mimarisi mikroservis yapısına dönüştürüldü.
 - Linked List veri yapısı eklendi.
 - MinHeap veri yapısı eklendi.
+- Raycasting algoritması oluşturuldu.
+- BSP Tree'ye ışın-yönlü tarama desteği eklendi.
+- Raycasting ile BSP Tree entegrasyonu tamamlandı.
 
 ## Tespit Edilen Bulgular / Tartışmalar
 - BSP Tree başarıyla yapıldı ve çalıştığı doğrulandı.
@@ -44,6 +47,11 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 | Graph    | Yürünebilir alanların düğüm-kenar modeli| Tamamlandı |
 | Linked List    | Yürünebilir alanların düğüm-kenar modeli| Geliştiriliyor |
 | MinHeap| Pathfinding algoritmalarında, A* algoritmasında kullanılacak | Geliştiriliyor  |
+| Raycasting (CastRay) | Tek ışınla en yakın duvar kesişimi | Tamamlandı |
+| FOV Taraması (CastFOV) | Düşman görüş konisi içinde çoklu ışın | Tamamlandı |
+| Line of Sight | İki nokta arası görüş kontrolü | Tamamlandı |
+| BSP CollectAlongRay | Işın hattındaki duvarları filtreleme | Tamamlandı |
+| A* Pathfinding | Düşman yol bulma | Planlanan |
 ## Branch Yapısı
 | Üye | Branch | Sorumluluk |
 |---|---|---|
@@ -51,6 +59,7 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 | Arda İnanç  | feature/graph    | Graph yapısı    |
 | Beyzanur Postlu | feature/linkedlist-architecture | Docker Konfigürasyonu, LinkedList |
 |Selsabil Aya Belkabla | feature/minheap | MinHeap yapısı |
+| Rojin Topuz | feature/raycasting | Raycasting algoritması, BSP CollectAlongRay |
 
 ##  Genel Kurallar
 
