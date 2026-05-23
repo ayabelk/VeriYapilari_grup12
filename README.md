@@ -26,12 +26,13 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 - Repo kuruldu ve branch yapısı oluşturuldu.
 - BSP Tree veri yapısı oluşturuldu ve test edildi.
 - Graph veri yapısı eklendi.
-- Proje mimarisi mikroservis yapısına dönüştürüldü.
 - Linked List veri yapısı eklendi.
 - MinHeap veri yapısı eklendi.
 - Raycasting algoritması oluşturuldu.
 - BSP Tree'ye ışın-yönlü tarama desteği eklendi.
 - Raycasting ile BSP Tree entegrasyonu tamamlandı.
+- A* Pathfinding algoritması eklendi.
+- A* algoritması Graph ve MinHeap veri yapıları ile entegre edildi.
 
 ## Tespit Edilen Bulgular / Tartışmalar
 - BSP Tree başarıyla yapıldı ve çalıştığı doğrulandı.
@@ -39,6 +40,8 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 - Veri yapıları arasındaki hiyerarşi netleştirildi.
 - LinkedList tabanlı dinamik AI hafıza mekanizması ve konum takibi yöntemleri araştırılıyor.
 - MinHeap başarıyla yapıldı ve çalıştığı doğrulandı.
+- A* Pathfinding algoritması Graph üzerinde çalışacak şekilde geliştirildi.
+- A* algoritmasında en düşük maliyetli düğümü seçmek için MinHeap kullanıldı.
 
 ## Kullanılan Veri Yapıları
 | Veri Yapısı | Kullanım Amacı | Durum |
@@ -46,12 +49,12 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 | BSP Tree | Duvar segmentleri, görüş/çarpışma testi | Tamamlandı |
 | Graph    | Yürünebilir alanların düğüm-kenar modeli| Tamamlandı |
 | Linked List    | Yürünebilir alanların düğüm-kenar modeli| Geliştiriliyor |
-| MinHeap| Pathfinding algoritmalarında, A* algoritmasında kullanılacak | Geliştiriliyor  |
+| MinHeap| Pathfinding algoritmalarında, A* algoritmasında kullanılacak |Tamamlandı |
 | Raycasting (CastRay) | Tek ışınla en yakın duvar kesişimi | Tamamlandı |
 | FOV Taraması (CastFOV) | Düşman görüş konisi içinde çoklu ışın | Tamamlandı |
 | Line of Sight | İki nokta arası görüş kontrolü | Tamamlandı |
 | BSP CollectAlongRay | Işın hattındaki duvarları filtreleme | Tamamlandı |
-| A* Pathfinding | Düşman yol bulma | Planlanan |
+| A* Pathfinding | Graph üzerinde düşman yol bulma algoritması | Tamamlandı |
 ## Branch Yapısı
 | Üye | Branch | Sorumluluk |
 |---|---|---|
@@ -60,6 +63,7 @@ haritada devriye gezen düşmanlara yakalanmamaya çalışacaktır.
 | Beyzanur Postlu | feature/linkedlist-architecture | Docker Konfigürasyonu, LinkedList |
 |Selsabil Aya Belkabla | feature/minheap | MinHeap yapısı |
 | Rojin Topuz | feature/raycasting | Raycasting algoritması, BSP CollectAlongRay |
+| Selsabil Aya Belkabla | feature/pathfinding | A* Pathfinding algoritması ve MinHeap entegrasyonu |
 
 ##  Genel Kurallar
 
