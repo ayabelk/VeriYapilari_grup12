@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace GameEngine.DataStructures
 {
@@ -41,33 +42,57 @@ namespace GameEngine.DataStructures
         }
     }
 
+    // Graph veri yapisi:
+    // - Node'lari _nodes icinde saklar.
+    // - Kenarlari _adjacencyList icinde saklar.
     // Zaman Karmasikligi: O(V + E)
     // Uzay Karmasikligi: O(V + E)
     public class Graph
     {
-        private Dictionary<int, List<Edge>> _adjacencyList;
+        private readonly Dictionary<int, GraphNode> _nodes;
+        private readonly Dictionary<int, List<Edge>> _adjacencyList;
 
         public Graph()
         {
+            _nodes = new Dictionary<int, GraphNode>();
             _adjacencyList = new Dictionary<int, List<Edge>>();
         }
 
         // Graf'a yeni bir node ekler
         public void AddNode(GraphNode node)
         {
-            if (!_adjacencyList.ContainsKey(node.Id))
+            if (!_nodes.ContainsKey(node.Id))
             {
+                _nodes[node.Id] = node;
                 _adjacencyList[node.Id] = new List<Edge>();
             }
         }
 
+        // Node id'sine gore node'u dondurur
+        // A* algoritmasi X, Y ve IsWalkable bilgilerine buradan ulasacak
+        public GraphNode GetNode(int nodeId)
+        {
+            if (!_nodes.ContainsKey(nodeId))
+            {
+                throw new Exception("Node bulunamadi");
+            }
+
+            return _nodes[nodeId];
+        }
+
+        // Tum node'lari dondurur
+        public List<GraphNode> GetAllNodes()
+        {
+            return _nodes.Values.ToList();
+        }
+
         // Iki node arasina kenar ekler
-        // Cift yonlu baglanti kurmayi saglar
+        // Varsayilan olarak cift yonlu baglanti kurar
         public void AddEdge(int fromId, int toId, float weight, bool bidirectional = true)
         {
-            if (!_adjacencyList.ContainsKey(fromId) || !_adjacencyList.ContainsKey(toId))
+            if (!_nodes.ContainsKey(fromId) || !_nodes.ContainsKey(toId))
             {
-                throw new Exception("Node Bulunamamaktadir");
+                throw new Exception("Node bulunamadi");
             }
 
             _adjacencyList[fromId].Add(new Edge(fromId, toId, weight));
@@ -83,7 +108,7 @@ namespace GameEngine.DataStructures
         {
             if (!_adjacencyList.ContainsKey(nodeId))
             {
-                throw new Exception("Node Bulunamamaktadir");
+                throw new Exception("Node bulunamadi");
             }
 
             return _adjacencyList[nodeId];
@@ -92,21 +117,28 @@ namespace GameEngine.DataStructures
         // Node olup olmadigini kontrol eder
         public bool HasNode(int nodeId)
         {
-            return _adjacencyList.ContainsKey(nodeId);
+            return _nodes.ContainsKey(nodeId);
         }
 
         // Toplam node sayisini dondurur
         public int GetNodeCount()
         {
-            return _adjacencyList.Count;
+            return _nodes.Count;
+        }
+
+        // Toplam edge sayisini dondurur
+        public int GetEdgeCount()
+        {
+            return _adjacencyList.Values.Sum(edges => edges.Count);
         }
 
         // Node siler
         public void RemoveNode(int nodeId)
         {
-            if (!_adjacencyList.ContainsKey(nodeId))
+            if (!_nodes.ContainsKey(nodeId))
                 return;
 
+            _nodes.Remove(nodeId);
             _adjacencyList.Remove(nodeId);
 
             foreach (var edges in _adjacencyList.Values)
