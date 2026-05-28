@@ -22,6 +22,7 @@ services:
       ASPNETCORE_HTTP_PORTS: "8080"
       ASPNETCORE_HTTPS_PORTS: "8081"
       ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: http://+:8080
       DOTNET_USE_POLLING_FILE_WATCHER: "1"
       NUGET_FALLBACK_PACKAGES: /.nuget/fallbackpackages
     image: ai:dev
@@ -35,7 +36,7 @@ services:
     ports:
       - mode: ingress
         target: 8080
-        published: "5001"
+        published: "5051"
         protocol: tcp
       - mode: ingress
         target: 8080
@@ -66,11 +67,11 @@ services:
         read_only: true
         bind: {}
       - type: bind
-        source: C:\Users\HP\source\repos\Project6\a_i
+        source: C:\Users\HP\source\repos\project6\a_i
         target: /app
         bind: {}
       - type: bind
-        source: C:\Users\HP\source\repos\Project6
+        source: C:\Users\HP\source\repos\project6
         target: /src
         bind: {}
       - type: bind
@@ -97,21 +98,10 @@ services:
         target: /HotReloadAgent
         read_only: true
         bind: {}
-  back_End:
-    build:
-      context: C:\Users\HP\source\repos\project6
-      dockerfile: back_End/Dockerfile
-    networks:
-      default: null
-    ports:
-      - mode: ingress
-        target: 8080
-        published: "5000"
-        protocol: tcp
   back_end:
     build:
       context: C:\Users\HP\source\repos\project6
-      dockerfile: Dockerfile
+      dockerfile: back_End/Dockerfile
       args:
         BUILD_CONFIGURATION: Debug
         LAUNCHING_FROM_VS: "true"
@@ -126,10 +116,12 @@ services:
       - /VSTools/DistrolessHelper/DistrolessHelper.dll
       - --wait
     environment:
+      AI_URL: http://a_i:8080
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_HTTP_PORTS: "8080"
       ASPNETCORE_HTTPS_PORTS: "8081"
       ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: http://+:8080
       DOTNET_USE_POLLING_FILE_WATCHER: "1"
       NUGET_FALLBACK_PACKAGES: /.nuget/fallbackpackages
     image: backend:dev
@@ -141,6 +133,10 @@ services:
     networks:
       default: null
     ports:
+      - mode: ingress
+        target: 8080
+        published: "5050"
+        protocol: tcp
       - mode: ingress
         target: 8080
         protocol: tcp
@@ -170,11 +166,11 @@ services:
         read_only: true
         bind: {}
       - type: bind
-        source: C:\Users\HP\source\repos\Project6\back_End
+        source: C:\Users\HP\source\repos\project6\back_End
         target: /app
         bind: {}
       - type: bind
-        source: C:\Users\HP\source\repos\Project6
+        source: C:\Users\HP\source\repos\project6
         target: /src
         bind: {}
       - type: bind
@@ -201,17 +197,85 @@ services:
         target: /HotReloadAgent
         read_only: true
         bind: {}
-  front_End:
+  front_end:
     build:
       context: C:\Users\HP\source\repos\project6
       dockerfile: front_End/Dockerfile
+      args:
+        BUILD_CONFIGURATION: Debug
+        LAUNCHING_FROM_VS: "true"
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: front_End
+      target: build
+    entrypoint:
+      - dotnet
+      - --roll-forward
+      - Major
+      - /VSTools/DistrolessHelper/DistrolessHelper.dll
+      - --wait
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: http://+:80
+      BACKEND_URL: http://localhost:5050
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+    image: frontend:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.killprogram: dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
     networks:
       default: null
     ports:
       - mode: ingress
-        target: 8080
-        published: "8080"
+        target: 80
+        published: "9090"
         protocol: tcp
+    tty: true
+    volumes:
+      - type: bind
+        source: C:\Users\HP\source\repos\project6\front_End
+        target: /app
+        bind: {}
+      - type: bind
+        source: C:\Users\HP\source\repos\project6
+        target: /src
+        bind: {}
+      - type: bind
+        source: C:\Users\HP\vsdbg\vs2017u5
+        target: /remote_debugger
+        bind: {}
+      - type: bind
+        source: C:\Users\HP\AppData\Roaming\ASP.NET\Https
+        target: /root/.aspnet/https
+        read_only: true
+        bind: {}
+      - type: bind
+        source: C:\Users\HP\AppData\Roaming\ASP.NET\Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind: {}
+      - type: bind
+        source: C:\Users\HP\AppData\Roaming\Microsoft\UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind: {}
+      - type: bind
+        source: C:\Users\HP\AppData\Roaming\Microsoft\UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind: {}
+      - type: bind
+        source: C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\linux-x64\net6.0
+        target: /VSTools
+        read_only: true
+        bind: {}
+      - type: bind
+        source: C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\extensions\Microsoft\managedprojectsystem\HotReload
+        target: /HotReloadAgent
+        read_only: true
+        bind: {}
 networks:
   default:
     name: dockercompose8140575359426092103_default

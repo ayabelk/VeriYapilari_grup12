@@ -1,17 +1,21 @@
-name: dockercompose8058277304277052327
+name: dockercompose8140575359426092103
 services:
   a_i:
     build:
-      context: C:\Users\HP\source\repos\Project6
+      context: C:\Users\HP\source\repos\project6
       dockerfile: a_i/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_HTTP_PORTS: "8080"
       ASPNETCORE_HTTPS_PORTS: "8081"
-    image: ai
+      ASPNETCORE_URLS: http://+:8080
     networks:
       default: null
     ports:
+      - mode: ingress
+        target: 8080
+        published: "5051"
+        protocol: tcp
       - mode: ingress
         target: 8080
         protocol: tcp
@@ -39,6 +43,65 @@ services:
         target: /root/.aspnet/https
         read_only: true
         bind: {}
+  back_end:
+    build:
+      context: C:\Users\HP\source\repos\project6
+      dockerfile: back_End/Dockerfile
+    environment:
+      AI_URL: http://a_i:8080
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+      ASPNETCORE_URLS: http://+:8080
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "5050"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\HP\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind: {}
+      - type: bind
+        source: C:\Users\HP\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind: {}
+      - type: bind
+        source: C:\Users\HP\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind: {}
+      - type: bind
+        source: C:\Users\HP\AppData\Roaming/ASP.NET/Https
+        target: /root/.aspnet/https
+        read_only: true
+        bind: {}
+  front_end:
+    build:
+      context: C:\Users\HP\source\repos\project6
+      dockerfile: front_End/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:80
+      BACKEND_URL: http://localhost:5050
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "8082"
+        protocol: tcp
 networks:
   default:
-    name: dockercompose8058277304277052327_default
+    name: dockercompose8140575359426092103_default

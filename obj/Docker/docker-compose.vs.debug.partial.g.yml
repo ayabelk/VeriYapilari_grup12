@@ -74,7 +74,7 @@ services:
       args:
         LAUNCHING_FROM_VS: true
         BUILD_CONFIGURATION: Debug
-      target: base
+      target: build
       labels:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "front_End"

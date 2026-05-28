@@ -177,11 +177,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Project6\\a_i\\a_i.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\a_i.csproj",
       "projectName": "a_i",
-      "projectPath": "C:\\Users\\HP\\source\\repos\\Project6\\a_i\\a_i.csproj",
+      "projectPath": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\a_i.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\source\\repos\\Project6\\a_i\\obj\\",
+      "outputPath": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -250,7 +250,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

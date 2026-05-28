@@ -2,14 +2,31 @@ services:
   back_end:
     build:
       context: .
-      dockerfile: back_End/Dockerfile  # Klasör ismin tam olarak neyse o (Büyük/küçük harf önemli!)
-  
-  front_end:
-    build:
-      context: .
-      dockerfile: front_End/Dockerfile
+      dockerfile: back_End/Dockerfile
+    ports:
+      - "5050:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - AI_URL=http://a_i:8080
 
   a_i:
     build:
       context: .
       dockerfile: a_i/Dockerfile
+    ports:
+      - "5051:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+
+  front_end:
+    build:
+      context: .
+      dockerfile: front_End/Dockerfile
+    ports:
+      - "9090:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80  # <--- BU SATIRI EKLEDİK (İçerideki portu eşitledik)
+      - BACKEND_URL=http://back_end:8080 

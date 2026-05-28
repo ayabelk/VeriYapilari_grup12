@@ -26,7 +26,6 @@ C:\Users\HP\source\repos\project6\back_End\obj\Debug\net10.0\staticwebassets.bui
 C:\Users\HP\source\repos\project6\back_End\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\HP\source\repos\project6\back_End\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\HP\source\repos\project6\back_End\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\HP\source\repos\project6\back_End\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\HP\source\repos\project6\back_End\obj\Debug\net10.0\back_End.csproj.Up2Date
 C:\Users\HP\source\repos\project6\back_End\obj\Debug\net10.0\back_End.dll
 C:\Users\HP\source\repos\project6\back_End\obj\Debug\net10.0\refint\back_End.dll

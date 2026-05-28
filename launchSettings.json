@@ -4,9 +4,13 @@
       "commandName": "DockerCompose",
       "commandVersion": "1.0",
       "serviceActions": {
-        "a_i": "StartDebugging",
-        "back_end": "StartDebugging"
-      }
+        "front_end": "StartDebugging",
+        "back_end": "StartDebugging",
+        "a_i": "StartDebugging"
+      },
+      "composeLaunchAction": "LaunchBrowser",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:8082"
     }
   }
 }
