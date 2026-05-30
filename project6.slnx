@@ -1,7 +1,5 @@
 <Solution>
-  <Folder Name="/Çözüm Öğeleri/">
-    <File Path="../../../Downloads/README .md" />
-  </Folder>
+  <Folder Name="/Çözüm Öğeleri/" />
   <Project Path="a_i/a_i.csproj" />
   <Project Path="back_End/back_End.csproj" />
   <Project Path="docker-compose.dcproj">
