@@ -94,13 +94,13 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: http://+:80
-      BACKEND_URL: http://localhost:5050
+      BACKEND_URL: http://back_end:8080
     networks:
       default: null
     ports:
       - mode: ingress
         target: 80
-        published: "8082"
+        published: "9090"
         protocol: tcp
 networks:
   default:

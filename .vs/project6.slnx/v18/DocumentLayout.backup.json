@@ -3,7 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\project6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62E95E9B-512F-4BE3-9B54-D353EE19D30C}|\u00C7\u00F6z\u00FCm \u00D6\u011Feleri{62E95E9B-512F-4BE3-9B54-D353EE19D30C}|C:\\Users\\HP\\Downloads\\README .md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\hp\\source\\repos\\project6\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B37D88E-D656-FB35-205B-6F5E1AE9745F}|front_End\\front_End.csproj|c:\\users\\hp\\source\\repos\\project6\\front_end\\wwwroot\\game.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0B37D88E-D656-FB35-205B-6F5E1AE9745F}|front_End\\front_End.csproj|solutionrelative:front_end\\wwwroot\\game.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{240C4A15-B205-9F4C-8D6C-B984E5A166A5}|back_End\\back_End.csproj|c:\\users\\hp\\source\\repos\\project6\\back_end\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{240C4A15-B205-9F4C-8D6C-B984E5A166A5}|back_End\\back_End.csproj|solutionrelative:back_end\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84CA509C-4D4A-E13F-AE3B-C818F5FEC623}|a_i\\a_i.csproj|c:\\users\\hp\\source\\repos\\project6\\a_i\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -16,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0B37D88E-D656-FB35-205B-6F5E1AE9745F}|front_End\\front_End.csproj|c:\\users\\hp\\source\\repos\\project6\\front_end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B37D88E-D656-FB35-205B-6F5E1AE9745F}|front_End\\front_End.csproj|solutionrelative:front_end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B37D88E-D656-FB35-205B-6F5E1AE9745F}|front_End\\front_End.csproj|c:\\users\\hp\\source\\repos\\project6\\front_end\\wwwroot\\game.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{0B37D88E-D656-FB35-205B-6F5E1AE9745F}|front_End\\front_End.csproj|solutionrelative:front_end\\wwwroot\\game.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{240C4A15-B205-9F4C-8D6C-B984E5A166A5}|back_End\\back_End.csproj|c:\\users\\hp\\source\\repos\\project6\\back_end\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -94,10 +99,6 @@
       "RelativeMoniker": "D:0:0:{240C4A15-B205-9F4C-8D6C-B984E5A166A5}|back_End\\back_End.csproj|solutionrelative:back_end\\data structures\\bsptree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\hp\\source\\repos\\project6\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
-      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\hp\\source\\repos\\project6\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -109,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 167,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -120,319 +121,33 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "README .md",
-              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\README .md",
-              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\README .md",
-              "ToolTip": "C:\\Users\\HP\\Downloads\\README .md",
-              "RelativeToolTip": "..\\..\\..\\Downloads\\README .md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-05-28T21:33:38.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Program.cs",
-              "RelativeDocumentMoniker": "a_i\\Program.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Program.cs",
-              "RelativeToolTip": "a_i\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T20:48:28.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Program.cs",
-              "RelativeDocumentMoniker": "back_End\\Program.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Program.cs",
-              "RelativeToolTip": "back_End\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T20:44:35.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\front_End\\Program.cs",
-              "RelativeDocumentMoniker": "front_End\\Program.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\front_End\\Program.cs",
-              "RelativeToolTip": "front_End\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T20:40:42.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "game.js",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\front_End\\wwwroot\\game.js",
-              "RelativeDocumentMoniker": "front_End\\wwwroot\\game.js",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\front_End\\wwwroot\\game.js",
-              "RelativeToolTip": "front_End\\wwwroot\\game.js",
-              "ViewState": "AgIAAOwAAAAAAAAAAADwvxMBAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-05-28T20:40:26.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\appsettings.json",
-              "RelativeDocumentMoniker": "back_End\\appsettings.json",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\appsettings.json",
-              "RelativeToolTip": "back_End\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-28T20:38:41.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "raycasting.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Algorithms\\raycasting.cs",
-              "RelativeDocumentMoniker": "back_End\\Algorithms\\raycasting.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Algorithms\\raycasting.cs",
-              "RelativeToolTip": "back_End\\Algorithms\\raycasting.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T19:10:27.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LineOfSight.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Algorithms\\LineOfSight.cs",
-              "RelativeDocumentMoniker": "back_End\\Algorithms\\LineOfSight.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Algorithms\\LineOfSight.cs",
-              "RelativeToolTip": "back_End\\Algorithms\\LineOfSight.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAAAHMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T19:03:04.786Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AStarPathfinder.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Algorithms\\AStarPathfinder.cs",
-              "RelativeDocumentMoniker": "back_End\\Algorithms\\AStarPathfinder.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Algorithms\\AStarPathfinder.cs",
-              "RelativeToolTip": "back_End\\Algorithms\\AStarPathfinder.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAuwIsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T18:59:54.489Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MapGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Algorithms\\MapGenerator.cs",
-              "RelativeDocumentMoniker": "back_End\\Algorithms\\MapGenerator.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Algorithms\\MapGenerator.cs",
-              "RelativeToolTip": "back_End\\Algorithms\\MapGenerator.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAwwEsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T18:55:50.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "raycasting.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Algorithms\\raycasting.cs",
-              "RelativeDocumentMoniker": "a_i\\Algorithms\\raycasting.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Algorithms\\raycasting.cs",
-              "RelativeToolTip": "a_i\\Algorithms\\raycasting.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T19:21:09.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LineOfSight.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Algorithms\\LineOfSight.cs",
-              "RelativeDocumentMoniker": "a_i\\Algorithms\\LineOfSight.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Algorithms\\LineOfSight.cs",
-              "RelativeToolTip": "a_i\\Algorithms\\LineOfSight.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAIwAYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T19:01:14.703Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AStarPathfinder.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Algorithms\\AStarPathfinder.cs",
-              "RelativeDocumentMoniker": "a_i\\Algorithms\\AStarPathfinder.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Algorithms\\AStarPathfinder.cs",
-              "RelativeToolTip": "a_i\\Algorithms\\AStarPathfinder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T19:11:34.95Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MinHeap.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Data Structures\\MinHeap.cs",
-              "RelativeDocumentMoniker": "a_i\\Data Structures\\MinHeap.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Data Structures\\MinHeap.cs",
-              "RelativeToolTip": "a_i\\Data Structures\\MinHeap.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAADwv5UAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T18:47:12.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "linkedList.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Data Structures\\linkedList.cs",
-              "RelativeDocumentMoniker": "a_i\\Data Structures\\linkedList.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Data Structures\\linkedList.cs",
-              "RelativeToolTip": "a_i\\Data Structures\\linkedList.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAAEgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T18:42:36.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Graph.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Data Structures\\Graph.cs",
-              "RelativeDocumentMoniker": "a_i\\Data Structures\\Graph.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Data Structures\\Graph.cs",
-              "RelativeToolTip": "a_i\\Data Structures\\Graph.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T18:46:05.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DynamicArray.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Data Structures\\DynamicArray.cs",
-              "RelativeDocumentMoniker": "a_i\\Data Structures\\DynamicArray.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Data Structures\\DynamicArray.cs",
-              "RelativeToolTip": "a_i\\Data Structures\\DynamicArray.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAywEEAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T18:35:12.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BspTree.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Data Structures\\BspTree.cs",
-              "RelativeDocumentMoniker": "a_i\\Data Structures\\BspTree.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Data Structures\\BspTree.cs",
-              "RelativeToolTip": "a_i\\Data Structures\\BspTree.cs",
-              "ViewState": "AgIAALcAAAAAAAAAAAAAALAAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T18:43:40.038Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DynamicArray.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Data Structures\\DynamicArray.cs",
-              "RelativeDocumentMoniker": "back_End\\Data Structures\\DynamicArray.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Data Structures\\DynamicArray.cs",
-              "RelativeToolTip": "back_End\\Data Structures\\DynamicArray.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T18:51:06.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "linkedList.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Data Structures\\linkedList.cs",
-              "RelativeDocumentMoniker": "back_End\\Data Structures\\linkedList.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Data Structures\\linkedList.cs",
-              "RelativeToolTip": "back_End\\Data Structures\\linkedList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T18:52:59.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MinHeap.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Data Structures\\MinHeap.cs",
-              "RelativeDocumentMoniker": "back_End\\Data Structures\\MinHeap.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Data Structures\\MinHeap.cs",
-              "RelativeToolTip": "back_End\\Data Structures\\MinHeap.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAUwKoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T18:53:22.27Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Graph.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Data Structures\\Graph.cs",
-              "RelativeDocumentMoniker": "back_End\\Data Structures\\Graph.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Data Structures\\Graph.cs",
-              "RelativeToolTip": "back_End\\Data Structures\\Graph.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T18:51:23.767Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "BspTree.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Data Structures\\BspTree.cs",
-              "RelativeDocumentMoniker": "back_End\\Data Structures\\BspTree.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Data Structures\\BspTree.cs",
-              "RelativeToolTip": "back_End\\Data Structures\\BspTree.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T18:48:52.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-05-26T21:28:47.915Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "docker-compose.dcproj",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\docker-compose.dcproj",
-              "RelativeDocumentMoniker": "docker-compose.dcproj",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\docker-compose.dcproj",
-              "RelativeToolTip": "docker-compose.dcproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-05-26T21:28:42.337Z"
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{797f5b3d-853a-4854-a9f2-c488bac2661b}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-05-26T21:28:47.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
@@ -453,6 +168,294 @@
             {
               "$type": "Bookmark",
               "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "back_End\\Controllers\\GameController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Controllers\\GameController.cs",
+              "RelativeToolTip": "back_End\\Controllers\\GameController.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAgwKcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T22:08:21.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "game.js",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\front_End\\wwwroot\\game.js",
+              "RelativeDocumentMoniker": "front_End\\wwwroot\\game.js",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\front_End\\wwwroot\\game.js",
+              "RelativeToolTip": "front_End\\wwwroot\\game.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-28T20:40:26.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Program.cs",
+              "RelativeDocumentMoniker": "back_End\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Program.cs",
+              "RelativeToolTip": "back_End\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:44:35.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Program.cs",
+              "RelativeDocumentMoniker": "a_i\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Program.cs",
+              "RelativeToolTip": "a_i\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:48:28.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\front_End\\Program.cs",
+              "RelativeDocumentMoniker": "front_End\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\front_End\\Program.cs",
+              "RelativeToolTip": "front_End\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:40:42.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\appsettings.json",
+              "RelativeDocumentMoniker": "back_End\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\appsettings.json",
+              "RelativeToolTip": "back_End\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-28T20:38:41.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "raycasting.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Algorithms\\raycasting.cs",
+              "RelativeDocumentMoniker": "back_End\\Algorithms\\raycasting.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Algorithms\\raycasting.cs",
+              "RelativeToolTip": "back_End\\Algorithms\\raycasting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T19:10:27.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LineOfSight.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Algorithms\\LineOfSight.cs",
+              "RelativeDocumentMoniker": "back_End\\Algorithms\\LineOfSight.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Algorithms\\LineOfSight.cs",
+              "RelativeToolTip": "back_End\\Algorithms\\LineOfSight.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAAHMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T19:03:04.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AStarPathfinder.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Algorithms\\AStarPathfinder.cs",
+              "RelativeDocumentMoniker": "back_End\\Algorithms\\AStarPathfinder.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Algorithms\\AStarPathfinder.cs",
+              "RelativeToolTip": "back_End\\Algorithms\\AStarPathfinder.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwIsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:59:54.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MapGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Algorithms\\MapGenerator.cs",
+              "RelativeDocumentMoniker": "back_End\\Algorithms\\MapGenerator.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Algorithms\\MapGenerator.cs",
+              "RelativeToolTip": "back_End\\Algorithms\\MapGenerator.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwEsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:55:50.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "raycasting.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Algorithms\\raycasting.cs",
+              "RelativeDocumentMoniker": "a_i\\Algorithms\\raycasting.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Algorithms\\raycasting.cs",
+              "RelativeToolTip": "a_i\\Algorithms\\raycasting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T19:21:09.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LineOfSight.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Algorithms\\LineOfSight.cs",
+              "RelativeDocumentMoniker": "a_i\\Algorithms\\LineOfSight.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Algorithms\\LineOfSight.cs",
+              "RelativeToolTip": "a_i\\Algorithms\\LineOfSight.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAIwAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T19:01:14.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AStarPathfinder.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Algorithms\\AStarPathfinder.cs",
+              "RelativeDocumentMoniker": "a_i\\Algorithms\\AStarPathfinder.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Algorithms\\AStarPathfinder.cs",
+              "RelativeToolTip": "a_i\\Algorithms\\AStarPathfinder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T19:11:34.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MinHeap.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Data Structures\\MinHeap.cs",
+              "RelativeDocumentMoniker": "a_i\\Data Structures\\MinHeap.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Data Structures\\MinHeap.cs",
+              "RelativeToolTip": "a_i\\Data Structures\\MinHeap.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAADwv5UAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:47:12.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "linkedList.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Data Structures\\linkedList.cs",
+              "RelativeDocumentMoniker": "a_i\\Data Structures\\linkedList.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Data Structures\\linkedList.cs",
+              "RelativeToolTip": "a_i\\Data Structures\\linkedList.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:42:36.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Graph.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Data Structures\\Graph.cs",
+              "RelativeDocumentMoniker": "a_i\\Data Structures\\Graph.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Data Structures\\Graph.cs",
+              "RelativeToolTip": "a_i\\Data Structures\\Graph.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:46:05.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DynamicArray.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Data Structures\\DynamicArray.cs",
+              "RelativeDocumentMoniker": "a_i\\Data Structures\\DynamicArray.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Data Structures\\DynamicArray.cs",
+              "RelativeToolTip": "a_i\\Data Structures\\DynamicArray.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAywEEAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:35:12.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BspTree.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Data Structures\\BspTree.cs",
+              "RelativeDocumentMoniker": "a_i\\Data Structures\\BspTree.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\a_i\\Data Structures\\BspTree.cs",
+              "RelativeToolTip": "a_i\\Data Structures\\BspTree.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAALAAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:43:40.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DynamicArray.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Data Structures\\DynamicArray.cs",
+              "RelativeDocumentMoniker": "back_End\\Data Structures\\DynamicArray.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Data Structures\\DynamicArray.cs",
+              "RelativeToolTip": "back_End\\Data Structures\\DynamicArray.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:51:06.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "linkedList.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Data Structures\\linkedList.cs",
+              "RelativeDocumentMoniker": "back_End\\Data Structures\\linkedList.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Data Structures\\linkedList.cs",
+              "RelativeToolTip": "back_End\\Data Structures\\linkedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:52:59.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MinHeap.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Data Structures\\MinHeap.cs",
+              "RelativeDocumentMoniker": "back_End\\Data Structures\\MinHeap.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Data Structures\\MinHeap.cs",
+              "RelativeToolTip": "back_End\\Data Structures\\MinHeap.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAUwKoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:53:22.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Graph.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Data Structures\\Graph.cs",
+              "RelativeDocumentMoniker": "back_End\\Data Structures\\Graph.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Data Structures\\Graph.cs",
+              "RelativeToolTip": "back_End\\Data Structures\\Graph.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:51:23.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BspTree.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Data Structures\\BspTree.cs",
+              "RelativeDocumentMoniker": "back_End\\Data Structures\\BspTree.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\back_End\\Data Structures\\BspTree.cs",
+              "RelativeToolTip": "back_End\\Data Structures\\BspTree.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:48:52.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "docker-compose.dcproj",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\project6\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\project6\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-26T21:28:42.337Z"
             }
           ]
         }
