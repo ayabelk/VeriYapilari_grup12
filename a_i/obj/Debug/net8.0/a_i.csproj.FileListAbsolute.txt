@@ -1,7 +1,0 @@
-C:\Users\HP\source\repos\project6\a_i\obj\Debug\net8.0\rpswa.dswa.cache.json
-C:\Users\HP\source\repos\project6\a_i\obj\Debug\net8.0\a_i.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\HP\source\repos\project6\a_i\obj\Debug\net8.0\a_i.AssemblyInfoInputs.cache
-C:\Users\HP\source\repos\project6\a_i\obj\Debug\net8.0\a_i.AssemblyInfo.cs
-C:\Users\HP\source\repos\project6\a_i\obj\Debug\net8.0\a_i.csproj.CoreCompileInputs.cache
-C:\Users\HP\source\repos\project6\a_i\obj\Debug\net8.0\a_i.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\HP\source\repos\project6\a_i\obj\Debug\net8.0\a_i.sourcelink.json
