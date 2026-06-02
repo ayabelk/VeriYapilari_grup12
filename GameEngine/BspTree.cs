@@ -93,6 +93,15 @@ namespace GameEngine.DataStructures
             return result;
         }
 
+        public List<WallSegment> CollectAlongRay(float startX, float startY, float endX, float endY)
+        {
+            List<WallSegment> result = new List<WallSegment>();
+            // Işının başlangıç noktasına göre ağacı tarayıp duvarları topluyoruz
+            TraverseNode(_root, startX, startY, result);
+            return result;
+        }
+
+        
         private void TraverseNode(BspNode node, float vx, float vy,
                                    List<WallSegment> result)
         {
