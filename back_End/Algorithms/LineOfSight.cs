@@ -36,6 +36,8 @@ namespace back_End.Algorithms
     public class LineOfSight
     {
         private readonly BspTree _bsp;
+        public static readonly string Author = "Beyzanur Postlu";
+
 
         // O(1) — yalnızca BSP referansı atanır.
         public LineOfSight(BspTree bsp) { _bsp = bsp; }

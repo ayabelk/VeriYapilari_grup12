@@ -23,6 +23,7 @@ namespace a_i.DataStructures
     public class MinHeap<T> where T : IComparable<T>
     {
         private readonly List<T> _items;
+        public static readonly string Author = "Selsabil Aya Belkabla";
 
         // O(1) — boş List sabit sürede oluşturulur.
         public MinHeap()

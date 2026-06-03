@@ -28,6 +28,7 @@ namespace back_End.Algorithms
     public class AStarPathfinder
     {
         private readonly Graph _graph;
+        public static readonly string Author = "Selsabil Aya Belkabla";
 
         // O(1) — yalnızca graf referansı atanır.
         public AStarPathfinder(Graph graph) { _graph = graph; }

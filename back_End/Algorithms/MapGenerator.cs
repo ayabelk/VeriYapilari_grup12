@@ -37,6 +37,12 @@ namespace back_End.Algorithms
     public class MapGenerator
     {
         private readonly Random _rng;
+        public static string[] GetAuthors()
+        {
+
+            return new string[] { "Beyzanur Postlu" };
+
+        }
 
         // O(1) — Random nesnesi sabit sürede oluşturulur.
         public MapGenerator(int? seed = null) { _rng = seed.HasValue ? new Random(seed.Value) : new Random(); }

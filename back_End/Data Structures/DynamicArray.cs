@@ -27,7 +27,7 @@ namespace back_End.DataStructures
         private int _count;
         private int _capacity;
         private const int DefaultCapacity = 4;
-
+        public static readonly string Author = "Beyzanur Postlu";
         public int Count => _count;
         public bool IsEmpty => _count == 0;
 

@@ -52,6 +52,7 @@ namespace a_i.DataStructures
 
     public class BspTree
     {
+        public static readonly string Author = "Rojin Topuz";
         private BspNode? _root;
 
         // O(1) — yalnızca _root pointer'ı null olarak atanır.
@@ -170,7 +171,7 @@ namespace a_i.DataStructures
         }
 
         // O(N) — GetVisibleWalls O(N) + her duvar için O(1) PointSegDist.
-        
+
         public bool IsPointBlocked(float px, float py)
         {
             foreach (var w in GetVisibleWalls(px, py)) // O(N) iterasyon

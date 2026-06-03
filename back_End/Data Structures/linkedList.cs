@@ -30,6 +30,7 @@ namespace a_i.DataStructures
     {
         private LinkedListNode<T>? _head;
         private int _count;
+        public static readonly string Author = "Beyzanur Postlu";
 
         public int Count => _count;       // O(1) — önceden tutulan sayaç
         public bool IsEmpty => _count == 0; // O(1) — sayaç karşılaştırması

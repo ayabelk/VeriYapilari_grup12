@@ -22,11 +22,15 @@ namespace a_i.Controllers
 
         private static readonly Dictionary<int, AiDecision> _decisions = new();
         private static readonly object _lock = new();
+        public static readonly string Author = "Beyzanur Postlu";
 
         // POST /api/ai/init
         [HttpPost("init")]
         public IActionResult Init([FromBody] MapInitRequest req)
         {
+            Console.WriteLine($"[INIT REQUEST] ilk duvar: x1:{req.Walls[0].X1} y1:{req.Walls[0].Y1} x2:{req.Walls[0].X2} y2:{req.Walls[0].Y2}");
+            Console.WriteLine($"[INIT REQUEST] ilk node: id:{req.Nodes[0].Id} x:{req.Nodes[0].X} y:{req.Nodes[0].Y}");
+            Console.WriteLine($"[INIT REQUEST] ilk edge: from:{req.Edges[0].From} to:{req.Edges[0].To} cost:{req.Edges[0].Cost}");
             _bspTree = new BspTree();
             _bspTree.Build(req.Walls.Select(w => new WallSegment(w.X1, w.Y1, w.X2, w.Y2)).ToList());
 

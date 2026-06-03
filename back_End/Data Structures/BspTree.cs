@@ -52,6 +52,7 @@ namespace back_End.DataStructures
 
     public class BspTree
     {
+        public static readonly string Author = "Rojin Topuz";
         private BspNode? _root;
 
         // O(1) — yalnızca _root pointer'ı null olarak atanır.

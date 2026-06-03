@@ -23,6 +23,13 @@ namespace back_End.Algorithms
     // --------------------------------------------------------------
     public class Raycasting
     {
+        public static string[] GetAuthors()
+
+        {
+
+            return new string[] { "Rojin Topuz" };
+
+        }
         private BspTree _bspTree;
 
         public Raycasting(BspTree bspTree)

@@ -22,6 +22,7 @@ namespace back_End.Controllers
         private static readonly HttpClient _http = new HttpClient();
         private static readonly string AI_URL =
            Environment.GetEnvironmentVariable("AI_URL") ?? "http://localhost:5051";
+        public static readonly string Author = "Beyzanur Postlu";
 
         // POST /api/game/generate — O(cols*rows) + O(W log W) BSP inşası
         [HttpPost("generate")]
@@ -154,7 +155,7 @@ namespace back_End.Controllers
             return Ok(new { visible = _los.IsVisible(fx, fy, tx, ty) });
         }
 
-        
+
         // GET /api/game/team
         [HttpGet("team")]
         public IActionResult GetTeamMembers()
@@ -166,7 +167,7 @@ namespace back_End.Controllers
         new { name = "Hasan Emre Kartal",     id = "032390081" },
         new { name = "Beyzanur Postlu",       id = "032390082" },
         new { name = "Selsabil Aya Belkabla", id = "032390092" },
-        
+
     });
         }
         public class EnemyState { public int Id { get; set; } public float X { get; set; } public float Y { get; set; } public float Angle { get; set; } public string State { get; set; } = "patrol"; public float PatrolAngle { get; set; } }

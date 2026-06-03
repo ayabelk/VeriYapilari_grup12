@@ -52,6 +52,7 @@ namespace back_End.DataStructures
 
     public class Graph
     {
+        public static readonly string Author = "Arda Inanc";
         private readonly Dictionary<int, GraphNode> _nodes;
         private readonly Dictionary<int, List<Edge>> _adjacencyList;
 

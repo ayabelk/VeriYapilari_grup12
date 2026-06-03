@@ -23,6 +23,7 @@ namespace a_i.Algorithms
     // --------------------------------------------------------------
     public class Raycasting
     {
+        public static readonly string Author = "Rojin Topuz";
         private BspTree _bspTree;
 
         public Raycasting(BspTree bspTree)

@@ -1,6 +1,7 @@
+using a_i.DataStructures;
+using back_End.DataStructures;
 using System;
 using System.Collections.Generic;
-using a_i.DataStructures;
 
 namespace a_i.Algorithms
 {
@@ -28,6 +29,7 @@ namespace a_i.Algorithms
     public class AStarPathfinder
     {
         private readonly Graph _graph;
+        public static readonly string Author = "Selsabil Aya Belkabla";
 
         // O(1) — yalnızca graf referansı atanır.
         public AStarPathfinder(Graph graph) { _graph = graph; }
@@ -46,7 +48,7 @@ namespace a_i.Algorithms
             if (!startNode.IsWalkable || !goalNode.IsWalkable) return new List<int>();
 
             // O(1) — dört veri yapısı başlatılır; hepsi başlangıçta boş.
-            var openSet = new MinHeap<AStarRecord>();
+            var openSet = new a_i.DataStructures.MinHeap<AStarRecord>();
             var gCost = new Dictionary<int, float>();
             var cameFrom = new Dictionary<int, int>();
             var closedSet = new HashSet<int>();
@@ -132,7 +134,7 @@ namespace a_i.Algorithms
             public int CompareTo(AStarRecord? o)
             {
                 if (o == null) return -1;
-                int c = FCost.CompareTo(o.FCost);              // O(1) birincil sıralama
+                int c = FCost.CompareTo(o.FCost);          // O(1) birincil sıralama
                 return c != 0 ? c : HCost.CompareTo(o.HCost); // O(1) tie-breaking
             }
         }
