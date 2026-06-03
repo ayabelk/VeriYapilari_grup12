@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Çözüm Öğeleri/" />
+  <Project Path="a_i/a_i.csproj" />
+  <Project Path="back_End/back_End.csproj" />
+  <Project Path="docker-compose.dcproj">
+    <Build />
+  </Project>
+  <Project Path="front_End/front_End.csproj" />
+</Solution>

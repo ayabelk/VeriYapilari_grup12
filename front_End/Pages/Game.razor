@@ -1,0 +1,75 @@
+﻿@page "/game"
+@inject HttpClient Http
+@inject IJSRuntime JS
+
+<h3 style="color:#00ff88;font-family:monospace;margin:10px">BSP Stealth Game</h3>
+
+<div style="display:flex;gap:10px;margin:10px">
+    <button @onclick="GenerateMap" style="@BtnStyle">Yeni Harita Üret</button>
+    <button @onclick="StartGame" disabled="@(!mapLoaded)" style="@BtnStyle">Oyunu Başlat</button>
+    <span style="color:#aaa;font-family:monospace;align-self:center">
+        Duvarlar: @wallCount | Düğümler: @nodeCount | WASD ile hareket
+    </span>
+</div>
+
+<canvas id="gameCanvas" width="640" height="480"
+        style="border:2px solid #00ff88;background:#111;display:block;margin:10px"
+        tabindex="0">
+</canvas>
+
+<div style="color:#888;font-family:monospace;margin:10px;font-size:12px">
+    Oyuncu: (@playerX, @playerY) | Durum: @statusMsg
+</div>
+
+@code {
+    bool mapLoaded = false;
+    int wallCount = 0, nodeCount = 0;
+    float playerX = 0, playerY = 0;
+    string statusMsg = "Harita üret, sonra oyunu başlat";
+    string BtnStyle = "background:#00ff88;color:#111;border:none;padding:8px 16px;font-family:monospace;font-weight:bold;cursor:pointer;border-radius:4px";
+
+    private const string ApiBase = "http://localhost:5050/api/game";
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+            await JS.InvokeVoidAsync("initCanvas");
+    }
+
+    async Task GenerateMap()
+    {
+        statusMsg = "Harita üretiliyor...";
+        try
+        {
+            var result = await Http.PostAsync($"{ApiBase}/generate?cols=16&rows=12", null);
+            var map = await result.Content.ReadFromJsonAsync<MapData>();
+            if (map == null) return;
+
+            wallCount = map.wallCount;
+            nodeCount = map.nodeCount;
+            playerX = map.playerStart.x;
+            playerY = map.playerStart.y;
+            mapLoaded = true;
+            statusMsg = "Harita hazır";
+
+            StateHasChanged();
+            await Task.Delay(100);
+            await JS.InvokeVoidAsync("loadMap", map);
+        }
+        catch (Exception ex)
+        {
+            statusMsg = "Hata: " + ex.Message;
+        }
+    }
+
+    async Task StartGame()
+    {
+        await JS.InvokeVoidAsync("startGame");
+        statusMsg = "Oyun başladı — WASD ile hareket et";
+    }
+
+    record Point(float x, float y);
+    record WallDto(float x1, float y1, float x2, float y2);
+    record MapData(int gridWidth, int gridHeight, int wallCount, int nodeCount,
+                   Point playerStart, Point goal, Point[] enemies, WallDto[] walls);
+}
