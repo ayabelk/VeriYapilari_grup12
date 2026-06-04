@@ -223,6 +223,8 @@ project6/
 ---
 ## Proje Videosu: https://youtu.be/7TUf3t5bovQ 
 
+## Proje Raporu: https://drive.google.com/file/d/1NuOvnr4diYYlFENkB9Lms2I23PY7O5Do/view?usp=sharing
+
 ## Genel Kurallar
 
 ### Namespace Yapısı
