@@ -221,6 +221,7 @@ project6/
 | Beyzanur Postlu | 032390082 | feature/game-engine | Backend & AI Servis entegrasyonu, Oyun motoru, MapGenerator, GameController, AiController, Docker düzenleme |
 
 ---
+## Proje Videosu: https://youtu.be/7TUf3t5bovQ 
 
 ## Genel Kurallar
 
